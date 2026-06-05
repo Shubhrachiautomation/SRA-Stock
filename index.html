@@ -227,7 +227,7 @@
           </div>
           <div>
             <div class="stat-num" id="st-equip">0</div>
-            <div class="stat-lbl">Equipment</div>
+            <div class="stat-lbl">Laminator</div>
           </div>
         </div>
         <div class="stat-card s-total">
@@ -486,7 +486,7 @@
         <div class="fg">
           <label>Type</label>
           <select id="e-type" onchange="refreshCatDrop('e-cat','e-type')">
-            <option value="MACHINE">Machine</option><option value="TOOL">Tool</option><option value="EQUIPMENT">Equipment</option>
+            <option value="MACHINE">Machine</option><option value="TOOL">Tool</option><option value="LAMINATOR">Laminator</option>
           </select>
         </div>
         <div class="fg"><label>Category</label><select id="e-cat"></select></div>
@@ -541,7 +541,7 @@
       <button class="modal-close" onclick="closeModal('m-parent-cat')">✕</button>
     </div>
     <div class="modal-body">
-      <p style="color:var(--tx2);font-size:.85rem;margin-bottom:1rem">Parent categories group your asset types. The 3 built-in parents are Machine, Tool, and Equipment — you can add custom top-level parents here.</p>
+      <p style="color:var(--tx2);font-size:.85rem;margin-bottom:1rem">Parent categories group your asset types. The 3 built-in parents are Machine, Tool, and Laminator — you can add custom top-level parents here.</p>
       <div class="fg"><label>Parent Category Name *</label><input type="text" id="pc-name" placeholder="e.g., Raw Materials"/></div>
       <div class="fg"><label>Icon (emoji)</label><input type="text" id="pc-icon" placeholder="e.g., 🏭" maxlength="4"/></div>
     </div>
@@ -565,7 +565,7 @@
         <select id="c-type">
           <option value="MACHINE">Machine</option>
           <option value="TOOL">Tool</option>
-          <option value="EQUIPMENT">Equipment</option>
+          <option value="LAMINATOR">Laminator</option>
         </select>
       </div>
       <div class="fg"><label>Sub Category Name *</label><input type="text" id="c-name" placeholder="e.g., CNC Machines"/></div>
